@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# Gerenciador de Tarefas - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+É uma aplicação web intuitiva desenvolvida em React que permite aos usuários organizar suas tarefas diárias de forma eficiente. Com uma interface responsiva, os usuários podem adicionar, visualizar e remover tarefas facilmente, recebendo feedback imediato sobre suas ações. A aplicação foi projetada para oferecer uma experiência fluida e centrada no usuário.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- React
+- Axios
+- CSS Modules
+- React Router DOM
 
-### `npm start`
+## Pré-requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js
+- npm ou yarn
+- IDE (recomendado: VS Code)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Configuração do Ambiente
 
-### `npm test`
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/gerenciador-tarefas-frontend.git
+cd gerenciador-tarefas-frontend
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Instale as dependências:
+```bash
+npm install
+# ou
+yarn install
+```
 
-### `npm run build`
+3. Configure o arquivo `.env` na raiz do projeto:
+```env
+REACT_APP_API_URL=http://localhost:8080/api
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Executando o Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Inicie o servidor de desenvolvimento:
+```bash
+npm start
+# ou
+yarn start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. A aplicação estará disponível em `http://localhost:3000`
 
-### `npm run eject`
+## Estrutura do Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+src/
+├── icons/
+└── App.js
+└── App.css
+└── App.test.js
+└── index.js
+└── index.css
+└── Tarefas.js
+└── setupTests.js
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Funcionalidades
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Listagem de tarefas
+- Criação de novas tarefas
+- Marcação de tarefas como concluídas
+- Exclusão de tarefas
+- Interface responsiva
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Scripts Disponíveis
 
-## Learn More
+- `npm start` - Inicia o servidor de desenvolvimento
+- `npm build` - Cria a versão de produção
+- `npm test` - Executa os testes
+- `npm run eject` - Ejeta as configurações do Create React App
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contribuindo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
 
-### Code Splitting
+## Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Nícolas Bággio
 
-### Analyzing the Bundle Size
+<div align="center">
+  <h2>⭐ Se este repositório foi útil para você, não se esqueça de deixar uma estrela! ⭐</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  <a href="mailto:nicolasbbaggio@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red">
+  </a>
+  <a href="https://www.linkedin.com/in/nicolasbaggio/">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a> 
+</div>
