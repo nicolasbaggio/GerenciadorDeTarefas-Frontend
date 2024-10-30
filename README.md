@@ -2,6 +2,8 @@
 
 É uma aplicação web intuitiva desenvolvida em React que permite aos usuários organizar suas tarefas diárias de forma eficiente. Com uma interface responsiva, os usuários podem adicionar, visualizar e remover tarefas facilmente, recebendo feedback imediato sobre suas ações. A aplicação foi projetada para oferecer uma experiência fluida e centrada no usuário.
 
+![Gerenciador de Tarefas](https://github.com/user-attachments/assets/cb632e73-4347-4e10-b1a7-9885ea7c800d)
+
 ## Tecnologias Utilizadas
 
 - React
